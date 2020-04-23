@@ -1,0 +1,46 @@
+CCFLAGS = -g ;
+HDRS = 	"C:\\Users\\Public\\Documents\\National Instruments\\TestStand 2019 (32-bit)\\AdapterSupport\\CVI"
+	"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\API\\DLLInterfaces"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr\\TestStand\\API"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "VISA-TT1-A.c" = "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1" ;
+Object "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj" : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\VISA-TT1-A.c" ;
+FILENUM on "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj" = 1 ;
+DEFPROTS on "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj" = "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj.cvidefprots" ;
+OUTFILE on "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj" = "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj.out" ;
+PrjObjects += "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1-A.obj" ;
+Object "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\resources.res" : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\resources.in.rc" ;
+Depends "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\resources.res" : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\manifest.xml" ;
+MainFromObjects "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1_dbg.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1_dbg.exe" : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\link_options.txt" ;
+Depends "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1_dbg.exe" : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\resources.res" ;
+Depends all : "g:\\lai-edisk\\lai\\LAIDOC\\赖小红\\课堂教学\\2019-2020\\第二学期\\2020自动测试系统\\demo\\VISAdemo\\TT1\\cvibuild.VISA-TT1\\Debug\\VISA-TT1_dbg.exe" ;
