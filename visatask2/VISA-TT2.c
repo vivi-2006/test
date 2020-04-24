@@ -16,7 +16,7 @@ ViSession  instr;	  //定义仪器会话变量
 ViFindList List;      //定义资源列表
 ViChar     desc[VI_FIND_BUFLEN]; //定义资源描述符缓冲区
 ViUInt32   numInstrs;			 //定义存放找到仪器数量的变量
-
+//modified by feature-f
 int cnt; //定义计数器变量
 char inbuf[128];  //定义输入缓冲区
 main()
