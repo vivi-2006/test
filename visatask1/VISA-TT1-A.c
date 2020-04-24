@@ -4,7 +4,7 @@
 ViStatus status;	  //定义状态变量
 ViSession  defRM;	  //定义系统资源会话变量
 int cnt; //定义计数器变量
-// in feature-c
+// modified by feature-d
 char inbuf[128];  //定义输入缓冲区
 int main()
 {
